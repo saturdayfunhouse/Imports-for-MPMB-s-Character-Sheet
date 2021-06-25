@@ -44,6 +44,12 @@ AddSubClass("bard", "college of eloquence", {
 			usagescalc : "event.value = Math.max(1, What('Cha Mod'));",
 			recovery : "long rest"
 		},
+		"subclassfeature3.2" : {
+			name : "silver tongue",
+			source : ["UA:BnP", 1],
+			minlevel : 3,
+			description : "\n   when i make a charisma (persuasion) or (decption) check i can not roll lower then a 9"},
+		},
 		"subclassfeature6" : {
 			name : "Undeniable Logic",
 			source : ["UA:BnP", 1],
